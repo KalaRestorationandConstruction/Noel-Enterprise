@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noel Enterprise | Reliable Water Heater Services</title>
+    <!-- Tailwind CSS for Responsive Layouts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Luxury Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Animate.css for Premium Subtle Motion On Scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- FontAwesome for Premium Interface Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        luxury: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        luxuryBlue: '#0A1931',
+                        accentBlue: '#0052D4',
+                        luxuryRed: '#8B0000',
+                        accentRed: '#FF416C',
+                        darkBg: '#0b0f19'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #FFF 30%, #FF416C 70%, #0052D4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .luxury-border-blue {
+            border-image: linear-gradient(to right, #0052D4, transparent) 1;
+        }
+        .luxury-border-red {
+            border-image: linear-gradient(to right, #FF416C, transparent) 1;
+        }
+        .glow-hover:hover {
+            box-shadow: 0 0 20px rgba(0, 82, 212, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased overflow-x-hidden">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="fixed w-full z-50 bg-luxuryBlue/90 backdrop-blur-md border-b border-gray-800/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo Section -->
+            <a href="#" class="flex items-center space-x-3 group">
+                <img src="https://www.bizforgeusa.com/logos/profile/limage-22382-334-photo.webp" alt="Noel Enterprise Logo" class="h-12 w-auto object-contain rounded border border-gray-700 group-hover:scale-105 transition duration-300">
+                <span class="font-luxury text-white text-lg tracking-widest hidden sm:inline-block">NOEL ENTERPRISE</span>
+            </a>
+            
+            <!-- Desktop Links -->
+            <div class="hidden md:flex space-x-8 font-medium tracking-wide text-sm">
+                <a href="#about" class="text-gray-300 hover:text-accentRed transition-colors duration-300">ABOUT</a>
+                <a href="#services" class="text-gray-300 hover:text-accentBlue transition-colors duration-300">SERVICES</a>
+                <a href="#reviews" class="text-gray-300 hover:text-accentRed transition-colors duration-300">REVIEWS</a>
+                <a href="#contact" class="text-gray-300 hover:text-accentBlue transition-colors duration-300">CONTACT</a>
+            </div>
+
+            <!-- Call To Action Button -->
+            <div class="hidden sm:block">
+                <a href="tel:7179947293" class="bg-gradient-to-r from-luxuryRed to-accentRed text-white px-5 py-2.5 rounded-full text-sm font-semibold tracking-wider hover:brightness-110 transition duration-300 shadow-lg shadow-accentRed/20 flex items-center space-x-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(717) 994-7293</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat pt-20" style="background-image: linear-gradient(to bottom, rgba(11, 15, 25, 0.75), rgba(11, 15, 25, 0.95)), url('https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-install-a-tankless-gas-water-heater-2023-step-6.jpg');">
+        <div class="absolute inset-0 bg-gradient-to-r from-accentBlue/10 to-accentRed/10 mix-blend-color-dodge pointer-events-none"></div>
+        <div class="max-w-5xl mx-auto px-6 text-center z-10 animate__animated animate__fadeIn">
+            <span class="text-xs uppercase tracking-widest text-accentRed font-semibold mb-4 block bg-accentRed/10 px-4 py-1.5 rounded-full w-max mx-auto border border-accentRed/20"> Lewistown, PA & Surrounding Areas</span>
+            <h1 class="font-luxury text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
+                Reliable Water Heater <br><span class="gradient-text">Services You Can Trust</span>
+            </h1>
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+                Noel Enterprise provides professional water heater installation, repair, and maintenance services. Whether you need a new system, emergency hot water fixes, or routine checkups, our elite team delivers fast, dependable service.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#services" class="w-full sm:w-auto bg-gradient-to-r from-accentBlue to-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-xl shadow-accentBlue/30 hover:translate-y-[-2px] transition-all duration-300 text-center tracking-wide">
+                    Explore Services
+                </a>
+                <a href="#contact" class="w-full sm:w-auto border border-gray-600 hover:border-accentRed text-white font-semibold px-8 py-4 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 text-center tracking-wide">
+                    Book an Appointment
+                </a>
+            </div>
+        </div>
+        
+        <!-- Luxury Section Divider Smooth Fade -->
+        <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-darkBg to-transparent"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="relative animate__animated animate__fadeInLeft">
+                <div class="absolute -top-4 -left-4 w-24 h-24 border-l-2 border-t-2 border-accentRed pointer-events-none"></div>
+                <img src="https://transform.octanecdn.com/crop/1600x900/https://octanecdn.com/restanocom/restanocom_433643355.jpeg" alt="Elite Plumbers Working" class="rounded-xl shadow-2xl relative z-10 border border-gray-800 object-cover w-full h-[400px]">
+                <div class="absolute -bottom-4 -right-4 w-24 h-24 border-r-2 border-b-2 border-accentBlue pointer-events-none"></div>
+            </div>
+            <div class="space-y-6 animate__animated animate__fadeInRight">
+                <div class="flex items-center space-x-3">
+                    <div class="h-0.5 w-8 bg-accentRed"></div>
+                    <span class="text-xs font-bold tracking-widest text-accentRed uppercase">WHO WE ARE</span>
+                </div>
+                <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white tracking-wide">Your Trusted Water Heater Specialists</h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-accentRed to-accentBlue mb-6"></div>
+                <p class="text-gray-400 leading-relaxed font-light">
+                    At Noel Enterprise, we are committed to providing reliable water heater solutions for homeowners and businesses throughout Lewistown, PA. Our skilled technicians specialize in installing, repairing, and maintaining traditional systems alongside luxury Rinnai tankless water heaters. 
+                </p>
+                <p class="text-gray-400 leading-relaxed font-light">
+                    We focus entirely on exceptional customer service, honest transparent recommendations, and lasting engineering results that protect your daily household comfort.
+                </p>
+                <div class="pt-4">
+                    <a href="#contact" class="inline-flex items-center space-x-2 text-accentBlue hover:text-white transition-colors duration-300 font-semibold tracking-wider">
+                        <span>LEARN MORE ABOUT OUR STANDARD</span>
+                        <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 bg-gray-900/40 border-y border-gray-800 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-accentBlue uppercase bg-accentBlue/10 px-4 py-1.5 rounded-full border border-accentBlue/20">WHAT WE DO</span>
+                <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white mt-4 tracking-wide">Our Premium Specialized Services</h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-accentBlue to-accentRed mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-luxuryBlue/30 border border-gray-800/80 rounded-2xl overflow-hidden hover:border-accentBlue/50 transition-all duration-300 flex flex-col group glow-hover">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://vanheatservices.com/wp-content/uploads/2023/09/Tankless-Water-Heater.jpg" alt="Water Heater Installation" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-luxury text-xl font-bold text-white mb-3 group-hover:text-accentBlue transition duration-300">Water Heater Installation</h3>
+                            <p class="text-gray-400 text-sm font-light leading-relaxed mb-6">
+                                Professional setup of high-efficiency traditional and modern units optimized for long-term reliability and lower energy costs.
+                            </p>
+                        </div>
+                        <a href="#contact" class="text-xs font-bold tracking-wider text-accentBlue group-hover:text-white transition duration-300 uppercase flex items-center space-x-2">
+                            <span>Request Booking</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-luxuryBlue/30 border border-gray-800/80 rounded-2xl overflow-hidden hover:border-accentRed/50 transition-all duration-300 flex flex-col group glow-hover">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://images.homegauge.com/wp-content/uploads/2023/10/maninstallingwaterheater.jpg" alt="Water Heater Repair" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-luxury text-xl font-bold text-white mb-3 group-hover:text-accentRed transition duration-300">Water Heater Repair</h3>
+                            <p class="text-gray-400 text-sm font-light leading-relaxed mb-6">
+                                Rapid diagnostic interventions and dependable repairs for systems facing active leaks, heating dropouts, or efficiency degradation.
+                            </p>
+                        </div>
+                        <a href="#contact" class="text-xs font-bold tracking-wider text-accentRed group-hover:text-white transition duration-300 uppercase flex items-center space-x-2">
+                            <span>Request Booking</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-luxuryBlue/30 border border-gray-800/80 rounded-2xl overflow-hidden hover:border-accentBlue/50 transition-all duration-300 flex flex-col group glow-hover">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://www.gshomeservices.com/wp-content/uploads/2025/10/6577d3dd463b133b0e70bccb_tankless-water-heater-repair.jpeg" alt="Tankless Services" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-luxury text-xl font-bold text-white mb-3 group-hover:text-accentBlue transition duration-300">Tankless Systems</h3>
+                            <p class="text-gray-400 text-sm font-light leading-relaxed mb-6">
+                                Factory-grade precision installation, flushing, and repair specialization certified exclusively for elite Rinnai tankless architectures.
+                            </p>
+                        </div>
+                        <a href="#contact" class="text-xs font-bold tracking-wider text-accentBlue group-hover:text-white transition duration-300 uppercase flex items-center space-x-2">
+                            <span>Request Booking</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="py-24 relative bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-luxuryBlue/40 via-darkBg to-darkBg">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-accentRed uppercase">TESTIMONIALS</span>
+                <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white mt-2 tracking-wide">What Our Clients Experience</h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-accentRed to-accentBlue mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-gray-900/60 p-8 rounded-2xl border border-gray-800/80 shadow-xl relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-white font-semibold text-lg mb-2">"Exceptional!"</h4>
+                        <p class="text-gray-400 font-light text-sm leading-relaxed italic">
+                            “I called Noel Enterprise when my water heater suddenly stopped working. They arrived quickly, identified the issue, and had everything repaired the same day. The technician was professional, friendly, and explained the repair process clearly. Highly recommend!”
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-800 text-xs font-semibold tracking-wider text-accentRed uppercase">
+                        – Michael R.
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-gray-900/60 p-8 rounded-2xl border border-gray-800/80 shadow-xl relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-white font-semibold text-lg mb-2">"Highly recommend!"</h4>
+                        <p class="text-gray-400 font-light text-sm leading-relaxed italic">
+                            “We hired Noel Enterprise to install a new water heater, and the entire experience was excellent. They helped us choose the right unit, completed the installation efficiently, and left everything clean when they finished. Great customer service and fair pricing.”
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-800 text-xs font-semibold tracking-wider text-accentBlue uppercase">
+                        – Sarah L.
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-gray-900/60 p-8 rounded-2xl border border-gray-800/80 shadow-xl relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-white font-semibold text-lg mb-2">"Five stars!"</h4>
+                        <p class="text-gray-400 font-light text-sm leading-relaxed italic">
+                            “I’ve used Noel Enterprise for annual water heater maintenance, and they always do a fantastic job. Their team is punctual, knowledgeable, and takes the time to ensure everything is working properly. Our water heater runs efficiently for years thanks to them.”
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-800 text-xs font-semibold tracking-wider text-accentRed uppercase">
+                        – David P.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 bg-gray-950 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            
+            <!-- Contact info info -->
+            <div class="space-y-8">
+                <div>
+                    <span class="text-xs font-bold tracking-widest text-accentBlue uppercase">GET IN TOUCH</span>
+                    <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white mt-2 tracking-wide">Connect With Our Team</h2>
+                    <div class="h-1 w-20 bg-gradient-to-r from-accentBlue to-accentRed mt-4"></div>
+                    <p class="text-gray-400 font-light mt-6 leading-relaxed">
+                        Have an emergency or looking for a quotation to upgrade your infrastructure? Drop details down or use direct connection line options below.
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Phone -->
+                    <div class="flex items-center space-x-4 p-4 bg-luxuryBlue/20 border border-gray-800 rounded-xl">
+                        <div class="w-12 h-12 rounded-lg bg-accentBlue/10 flex items-center justify-center text-accentBlue text-lg">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-gray-500 block uppercase font-bold tracking-wider">Call Us Directly</span>
+                            <a href="tel:7179947293" class="text-white font-semibold hover:text-accentBlue transition">(717) 994-7293</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="flex items-center space-x-4 p-4 bg-luxuryBlue/20 border border-gray-800 rounded-xl">
+                        <div class="w-12 h-12 rounded-lg bg-accentRed/10 flex items-center justify-center text-accentRed text-lg">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-gray-500 block uppercase font-bold tracking-wider">Email Dispatch</span>
+                            <a href="mailto:waterheaterservice462@gmail.com" class="text-white font-semibold hover:text-accentRed transition">waterheaterservice462@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="flex items-center space-x-4 p-4 bg-luxuryBlue/20 border border-gray-800 rounded-xl">
+                        <div class="w-12 h-12 rounded-lg bg-accentBlue/10 flex items-center justify-center text-accentBlue text-lg">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-gray-500 block uppercase font-bold tracking-wider">Headquarters</span>
+                            <span class="text-white font-semibold">2 Scenic Dr, Lewistown, PA 17044 USA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fast Contact Form -->
+            <div class="bg-gray-900/40 border border-gray-800 p-8 rounded-2xl shadow-xl">
+                <h3 class="font-luxury text-xl font-bold text-white mb-6">Send An Online Service Request</h3>
+                <form class="space-y-4" onsubmit="event.preventDefault(); alert('Thank you for contacting Noel Enterprise! We will call you shortly.');">
+                    <div>
+                        <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-2">Full Name</label>
+                        <input type="text" required class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accentBlue text-sm transition">
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-2">Phone Number</label>
+                            <input type="tel" required class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accentBlue text-sm transition">
+                        </div>
+                        <div>
+                            <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-2">Email Address</label>
+                            <input type="email" required class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accentBlue text-sm transition">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-2">Message / Requirements</label>
+                        <textarea rows="4" required class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accentRed text-sm transition" placeholder="Please describe how we can assist you..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-gradient-to-r from-luxuryRed to-accentRed text-white py-4 rounded-lg font-bold tracking-wider hover:brightness-110 transition duration-300 shadow-lg shadow-accentRed/10">
+                        Submit Dispatch Request
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER WITH GOOGLE MAPS MAP LINK/IFRAME -->
+    <footer class="bg-darkBg border-t border-gray-900 py-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="space-y-4 text-center md:text-left">
+                <div class="flex items-center justify-center md:justify-start space-x-3">
+                    <img src="https://www.bizforgeusa.com/logos/profile/limage-22382-334-photo.webp" alt="Noel Enterprise Logo" class="h-8 w-auto">
+                    <span class="font-luxury tracking-widest text-white font-bold">NOEL ENTERPRISE</span>
+                </div>
+                <p class="text-gray-500 text-xs max-w-sm">
+                    Premium and dedicated water heating mechanics serving residential and commercial properties with unmatched integrity.
+                </p>
+                <p class="text-gray-600 text-[11px]">
+                    &copy; 2026 Noel Enterprise. All rights reserved. Built for GitHub Pages.
+                </p>
+            </div>
+
+            <!-- GMB Navigation Embed Feature requested -->
+            <div class="border border-gray-800 p-2 rounded-xl bg-gray-950 max-w-full overflow-hidden shadow-inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193662.7292194591!2d-77.6043385!3d40.67440645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d135259a00ab7fb%3A0xb6062ce631e187f2!2sNoel%20Enterprise!5e0!3m2!1sen!2s!4v1781898192860!5m2!1sen!2s" width="340" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg"></iframe>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
